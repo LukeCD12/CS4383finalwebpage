@@ -1,0 +1,130 @@
+.App {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+.Home {
+  overflow: hidden;
+  height: 100vh;
+  /*background-color: #161616;*/
+  background-image: url("./tmfzb.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  font-weight: bolder;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%,0%);
+}
+
+.Contact {
+  overflow: hidden;
+  height: 100vh;
+  background-color: #161616;
+  width: 100%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%,0%);
+}
+
+.Home > div {
+  /*padding-top: 300px !important;
+  color: #ff7f82;
+  font-size: 5.2rem;*/
+  padding-top: 25vh;
+  background-color: #070707;
+  background-size: cover;
+	color: #ffffff;
+	font-size: 6rem;
+  font-weight: bold;
+	mix-blend-mode: multiply;
+  height: 100vh;
+}
+
+.Contact > div {
+  padding-top: 15vh;
+  color: #ff7f82;
+  font-size: 5.2rem;
+}
+
+.video {
+  display: table;
+  margin: 0 auto;
+}
+
+.info {
+  padding-top: 0px !important;
+  color:#19bc8b !important;
+  font-size: 2.75rem !important;
+}
+
+.Contact > div {
+  color: #ffa260;
+}
+
+.button {
+  background: none;
+  margin: .75rem;
+  border: 2.75px solid #a972cb;
+  font: inherit;
+  line-height: 1;
+  padding: .3rem 3rem;
+  text-decoration: none;
+  font-size: 25px;
+  color: #a972cb;
+  font-family: 'Roboto Mono', monospace;
+  text-transform: uppercase;
+  outline: none;
+  transition: all .3s;
+}
+
+.button:hover,
+.button:focus {
+  box-shadow: inset 0 0 0 2em rgb(169, 114, 203,.2);
+}
+
+.load-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  z-index: 10;
+  pointer-events: none;
+}
+
+.load-screen {
+  position: relative;
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  background-color: #02360d;
+  width: 0%;
+  height: 100%;
+}
+
+.load-screen1 {
+  position: relative;
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  background-color: #703f08;
+  width: 100%;
+  height: 0%;
+}
+
+.load-screen2 {
+  position: relative;
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  background-color: #080a7c;
+  width: 100%;
+  height: 0%;
+}
+
+.Headd {
+  opacity: 0;
+  pointer-events: none;
+}
