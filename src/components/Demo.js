@@ -40,9 +40,8 @@ function Demo() {
       </div>
       <div data-barba="container" className="Contact">
         <div ref={(el) => (body = el)} className="Headd">
-          <div>Demo Here</div>
-          <div className="video"><ReactPlayer url="https://www.youtube.com/watch?v=SNvDUO42Hys" /></div>
-          <p className="info">Lorem ipsum dolor sit amet</p>
+          <div>Demo</div>
+          <div className="video"><ReactPlayer url="https://www.youtube.com/watch?v=eUxaq0Fe4D0&ab_channel=Paradigmatic" /></div>
           <NavLink to="/" className="button">Home</NavLink>
           <NavLink to="/report" className="button">Report</NavLink>
         </div>

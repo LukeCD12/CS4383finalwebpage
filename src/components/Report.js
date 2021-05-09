@@ -6,6 +6,9 @@ import { useRef, useEffect } from "react";
 function Report() {
   let screen = useRef(null);
   let body = useRef(null);
+
+  const file_url = 'https://drive.google.com/uc?id=1yoVysEHzMU4IwBRaOKxy80JMm56dAhmf&embedded=true';
+
   useEffect(() => {
     var tl = new TimelineMax();
     tl.to(screen, {
@@ -39,8 +42,8 @@ function Report() {
       </div>
       <div data-barba="container" className="Contact">
         <div ref={(el) => (body = el)} className="Headd">
-          <div>Report Here</div>
-          <p className="info">Lorem ipsum dolor sit amet</p>
+          <div>Report</div>
+          <iframe title="report" width="50%" height="600" frameborder="0" src={`https://docs.google.com/gview?url=${file_url}&embedded=true`}></iframe><br />
           <NavLink to="/" className="button">Home</NavLink>
           <NavLink to="/demo" className="button">Demo</NavLink>
         </div>
